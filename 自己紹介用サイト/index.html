@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mokiti</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <link rel = "preconnect" href = "https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <h1>Mokiti</h1>
+        <div class="header_menu">
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="about">
+        <h2 class="title">About</h2>
+        <div class="about_area">
+          <div class="about_area_image">
+            <img src="./image/IMG_0595.JPG" alt="">
+          </div>
+          <div class="about_area_desc">
+            <div class="about_area_desc_txt text">
+              <p>
+                新卒で入社予定だった会社が入社式の数日前に倒産。<br>
+                新卒チケットを失って、半年ハローワークに通い、１社目の旅行会社に入社。<br>
+                旅行会社時代に、ITサービスに衝撃を受け、IT業界に興味を持つ。<br>
+                ３年間働いた後、急ハンドルをきって未経験ながらRPAエンジニアに転職。<br>
+                現在は、RPAの導入支援やRPA開発を行っております。
+              </p>
+            </div>
+            <div class="about_area_desc_icon">
+              <a href="twitter">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="mail">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service">
+        
+        <h2 class="title">Service</h2>
+          <div class="row">
+            <div class="col-md-4 col-xs-12">
+              <h3>Sales</h3>
+              <div class="service-icon">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <p class="text">
+                法人・スポーツ団体への営業が得意です。<br>
+                １社目の旅行会社時代は、年間利益目標を３年連続達成。<br>
+                ２年目の１２月に社長賞を受賞しました。
+              </p>
+            </div>
+          
+            <div class="col-md-4 col-xs-12">
+              <h3>RPA</h3>
+              <div class="service-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <p class="text">
+                下記、RPAツールを用いた導入支援や開発ができます。<br>
+                  ・WinActor<br>
+                  ・UiPath
+              </p>
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+              <h3>Coding</h3>
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <p class="text">
+                案件としての実績はありませんが、Pythonを用いた簡単な業務自動化のコーディングができます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2 class="title">Skills</h2>
+        
+        <div class="row">
+
+          <div class="col-md-4 col-xs-12">
+            <img class="Python" src="./image/Works/Python.jpg" alt="">
+            <p>Level: ★★☆☆☆</p>
+          </div>
+
+          <div class="col-md-4 col-xs-12">
+            <img src="./image/Works/UiPath.png" alt="">
+            <p>Level: ★★★★☆</p>
+          </div>
+
+          <div class="col-md-4 col-xs-12">
+            <img class="WinActor" src="./image/Works/WinActor.png" alt="">
+            <p>Level: ★★★★★</p>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="title">Contact</h2>
+        <div class="form">
+          <form class="formrun" action="https://form.run/api/v1/r/7a8ynr7l505xzz96ahqagoyi" method="post">
+            <!-- ↓自由に要素を追加・編集することができます -->
+            <div class="form_content">
+              <label>お名前</label>
+              <input name="お名前" type="text">
+            </div>
+          
+            <div class="form_content">
+              <label>メールアドレス [必須]</label>
+              <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+              <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+            </div>
+          
+            <div class="form_content">
+              <label>お問い合わせ [必須]</label>
+              <textarea rows="10" name="お問い合わせ" data-formrun-required></textarea>
+              <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+            </div>
+          
+            <!-- ボット投稿をブロックするためのタグ -->
+            <div class="_formrun_gotcha">
+              <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+              <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+              <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+            </div>
+           <div class="test">
+            <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+           </div>
+          </form>
+          
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
